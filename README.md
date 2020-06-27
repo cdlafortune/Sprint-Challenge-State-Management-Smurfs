@@ -83,7 +83,7 @@ Follow these steps to set up your project:
 [
   {
     name: "Brainey",
-    age: 200,
+    age: "",
     height: "5cm",
     id: 0
   }
