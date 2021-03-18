@@ -2,4 +2,56 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #88CCFF;
+}
+
+.App {
+  margin: 5%;
+  padding: 2%;
+}
+
+form{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-between;
+  width: 30%;
+  font-size: 1.25rem;
+}
+
+button{
+  color: white;
+  background-color: #4784AD;
+  font-size: 1rem;
+  border: 1px solid #4784AD;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #DEFBFC;
+  color: #4784AD;
+}
+
+form button {
+  width: 20%;
+  align-self: center;
+}
+
+.load-btn {
+  position: absolute;
+  left: 15%;
+}
+
+.smurf-list {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.smurf {
+  background-color: #47A0AD;
+  color: white;
+  width: 30%;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 10px;
 }
